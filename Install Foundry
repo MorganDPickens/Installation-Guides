@@ -1,0 +1,33 @@
+How I Set Up Foundry with WSL and VS Code on Windows
+Step 1: Install WSL
+
+Open the Command Prompt and type:
+"wsl --install"
+Restart your computer.
+Step 2: Set Up Ubuntu
+
+After restarting, WSL will open and check if you have Ubuntu. If you don’t have Ubuntu, you can download it [here](insert link to Ubuntu).
+Create a username and password (note: you will not be able to see your password when typing).
+Step 3: Install VS Code
+
+Make sure you have Visual Studio Code (VS Code) downloaded. If not, you can download it [here](insert link to download VS Code).
+Note: If you want to use VS Code without the Microsoft license, perhaps for a project or code you don’t want them having access to, you can use VSCodium.
+Step 4: Open VS Code and Terminal
+
+Open VS Code.
+Open a terminal by going to View at the top and selecting Terminal, or press Ctrl + .
+Step 5: Access WSL in VS Code
+
+In the terminal, type:
+"wsl"
+This will put you right into the Windows Subsystem for Linux (WSL).
+Step 6: Change Directory
+
+To change the directory where you want your files to go (for example, if you want it to open in the D: drive instead of C:), type:
+"cd D:"
+Step 7: Install Foundry
+
+Download Foundry by typing:
+"curl -L https://foundry.paradigm.xyz | bash"
+To run Foundry, type:
+"foundryup"
