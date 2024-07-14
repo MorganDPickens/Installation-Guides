@@ -24,7 +24,7 @@ This will put you right into the Windows Subsystem for Linux (WSL).
 Step 6: Change Directory
 
 To change the directory where you want your files to go (for example, if you want it to open in the D: drive instead of C:), type:
-"cd D:"
+"/mnt/d:"
 Step 7: Install Foundry
 
 Download Foundry by typing:
